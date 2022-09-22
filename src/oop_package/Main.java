@@ -6,8 +6,9 @@ public class Main {
         ember emb2 = new ember("Gabriel","1989-12-5", "Debrecen");
         ember emb3 = new ember("Lajos","1990-12-8", "Pecs");
 
-        System.out.println(emb);
-        System.out.println(emb2);
-        System.out.println(emb3);
+        System.out.println(emb + " " + emb.getSzuletesiEv());
+        System.out.println(emb2 + " " + emb2.getHonap() + " " + emb2.getNap());
+        System.out.println(emb3 + " " + emb3.getEletkor());
+
     }
 }
